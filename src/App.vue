@@ -1,26 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>This is my weather Vue app to display weather information for East Lansing</h1>
+  <WeatherComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WeatherComponent from './components/WeatherComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WeatherComponent
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
